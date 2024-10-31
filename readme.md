@@ -1,6 +1,6 @@
 # Sistema de Gerenciamento de Produtos
 
-![Kotlin](https://img.shields.io/badge/Kotlin-1.8.21-purple?style=for-the-badge&logo=kotlin) ![Spring Boot](https://img.shields.io/badge/Spring_Boot-3.3.4-green?style=for-the-badge&logo=spring-boot) ![Maven](https://img.shields.io/badge/Maven-3.9.9-red?style=for-the-badge&logo=apache-maven) ![JUnit5](https://img.shields.io/badge/JUnit5-5.10.3-green?style=for-the-badge&logo=junit5) ![Mockito](https://img.shields.io/badge/Mockito-5.11.10-blue?style=for-the-badge) [![codecov](https://img.shields.io/codecov/c/github/andre-s-nascimento/gerenciamento-de-produtos?style=for-the-badge&logo=codecov)](https://codecov.io/gh/andre-s-nascimento/gerenciamento-de-produtos)
+![Kotlin](https://img.shields.io/badge/Kotlin-2.0.21-purple?style=for-the-badge&logo=kotlin) ![Spring Boot](https://img.shields.io/badge/Spring_Boot-3.3.5-green?style=for-the-badge&logo=spring-boot) ![Maven](https://img.shields.io/badge/Maven-3.9.9-red?style=for-the-badge&logo=apache-maven) ![JUnit5](https://img.shields.io/badge/JUnit5-5.10.5-green?style=for-the-badge&logo=junit5) ![Mockito](https://img.shields.io/badge/Mockito-4.1.0-blue?style=for-the-badge) [![codecov](https://img.shields.io/codecov/c/github/andre-s-nascimento/gerenciamento-de-produtos?style=for-the-badge&logo=codecov)](https://codecov.io/gh/andre-s-nascimento/gerenciamento-de-produtos)
 
 Este é um sistema simples para gerenciar produtos em uma aplicação Spring Boot usando Kotlin.
 
