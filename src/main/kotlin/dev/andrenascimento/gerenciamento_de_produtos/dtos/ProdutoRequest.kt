@@ -8,10 +8,10 @@ import jakarta.validation.constraints.Size
 data class ProdutoRequest(
     @field:NotNull(message = "Nome do produto é obrigatório")
     @field:Size(min = 2, message = "O nome do produto deve ter no mínimo 2 caracteres")
-    var nome: String,
+    var nome: String?,
 
     @field:PositiveOrZero(message = "O preço não pode ser menor do que 0")
-    var preco: Double,
+    var preco: Double?,
 
     var descricao: String? = null,
 

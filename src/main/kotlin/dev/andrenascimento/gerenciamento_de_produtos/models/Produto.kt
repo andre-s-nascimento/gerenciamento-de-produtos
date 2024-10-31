@@ -12,11 +12,11 @@ import jakarta.validation.constraints.Size
 data class Produto(
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    var id: Long,
+    var id: Long? = null,
 
     @field:Size(min = 2, message = "O nome do produto deve ter no mínimo 2 caracteres.")
     @field:NotNull(message = "O nome do produto é obrigatório!")
-    var nome: String,
+    var nome: String? = null,
 
     @field:PositiveOrZero(message = "O preço não pode ser menor do que 0.")
     var preco: Double? = null,

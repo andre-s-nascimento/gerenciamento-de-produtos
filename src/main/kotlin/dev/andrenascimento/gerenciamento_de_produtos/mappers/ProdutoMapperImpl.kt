@@ -8,23 +8,23 @@ import org.springframework.stereotype.Component
 @Component
 class ProdutoMapperImpl : ProdutoMapper {
 
-    override fun toResponse(produto: Produto): ProdutoResponse {
+    override fun toResponse(produto: Produto?): ProdutoResponse {
         return ProdutoResponse(
-            id = produto.id,
-            nome = produto.nome,
-            preco = produto.preco,
-            descricao = produto.descricao,
-            quantidadeEmEstoque = produto.quantidadeEmEstoque
+            id = produto?.id,
+            nome = produto?.nome,
+            preco = produto?.preco,
+            descricao = produto?.descricao,
+            quantidadeEmEstoque = produto?.quantidadeEmEstoque
         )
     }
 
-    override fun toEntity(produtoRequest: ProdutoRequest): Produto {
+    override fun toEntity(produtoRequest: ProdutoRequest?): Produto {
         return Produto(
             id = -1L, // O id será gerado pelo banco de dados
-            nome = produtoRequest.nome,
-            preco = produtoRequest.preco,
-            descricao = produtoRequest.descricao,
-            quantidadeEmEstoque = produtoRequest.quantidadeEmEstoque
+            nome = produtoRequest?.nome,
+            preco = produtoRequest?.preco,
+            descricao = produtoRequest?.descricao,
+            quantidadeEmEstoque = produtoRequest?.quantidadeEmEstoque
         )
     }
 }
